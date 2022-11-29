@@ -5,7 +5,7 @@
 Console.Write("Введите желаемую длину массива: ");
 int arrLenght = Convert.ToInt32(Console.ReadLine());
 double[] array = new double[arrLenght];
-Console.WriteLine("Хотите заполнить массив в ручную? (Введите Да или Нет):");
+Console.WriteLine("Хотите заполнить массив вручную? (Введите Да или Нет):");
 string strAnswer = Console.ReadLine();
 if ((strAnswer == "Да") || (strAnswer == "да"))
 {
